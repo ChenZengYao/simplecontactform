@@ -2,7 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
-##Summary
+## Summary
+Figma darft: https://www.figma.com/file/UDF45bPcD7O6wPqtbwJPPC/Easy-Peasy-Wireframe-Kit-(Community)-(Copy)?node-id=307%3A726
 This project is done using Bulma CSS library
 
 ## Development server
