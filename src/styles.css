@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+.header{
+    padding-top: 3%;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.wrapper{
+    margin: 5px;
+}
+
+.contact-form{
+    max-width: 500px;
+    margin: auto;
+    overflow: auto;
+    min-height: 300px;
+    padding: 30px;
+    border: 1px dashed gray;
+    border-radius: 10px;
+}
+
+.vertical-mid{
+    vertical-align: middle;
+}
+
+.float-right{
+    float: right;
+}
+
+.success-message{
+    color: turquoise;
+}
+
+/* error field */
+.form-control.ng-touched.ng-invalid{
+    border-color: #f14668;
+}
+
+.form-control.ng-touched.ng-invalid:focus
+{
+    box-shadow: 0 0 0 0.125em rgba(241, 70, 104, 0.25);
+}
