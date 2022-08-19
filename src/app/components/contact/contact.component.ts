@@ -24,7 +24,7 @@ export class ContactComponent implements OnInit {
   name!: string;
   email!: string;
   message!: string;
-  successmsg!: boolean;
+  successmsg: boolean = false;
   result!: string;
   url: string = "https://62f4bd57ac59075124c2c928.mockapi.io/url";
   newUrl!: string;
@@ -32,9 +32,7 @@ export class ContactComponent implements OnInit {
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
-    this.successmsg = false;
   }
-
 
   displayMessage(){
     this.getURL();

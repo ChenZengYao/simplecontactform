@@ -67,9 +67,11 @@
                         <span><fa-icon [icon]="faAngleRight"></fa-icon></span>
                     </button>
                 </div>
-                    <div name="successmsg" [(ngModel)]="successmsg" class="success-message" *ngIf="successmsg">
+                <div name="successmsg" [(ngModel)]="successmsg">
+                    <label class="success-message" *ngIf="successmsg===true">
                         <fa-icon [icon]="faCheck"></fa-icon>
                         Form submitted successfully.
+                    </label>
                 </div>
             </form>
             <br>
